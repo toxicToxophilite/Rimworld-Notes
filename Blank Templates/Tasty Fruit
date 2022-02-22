@@ -1,1 +1,26 @@
-blank
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>Tox_RawCherry</defName>
+<label>Cherries</label>
+<description>A sweet red fruit related to peaches that can top any treat to make it sweeter.</description>
+<graphicData>
+<texPath>Resources/Raw/CherryFruit</texPath>
+</graphicData>
+<statBases>
+<MarketValue>1.5</MarketValue>
+<Mass>0.027</Mass>
+</statBases>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>8</daysToRotStart>
+</li>
+</comps>
+<ingestible>
+<preferability>RawTasty</preferability>
+<foodType>Plant</foodType>
+<ingestEffect>EatVegetarian</ingestEffect>
+<ingestSound>RawVegetable_Eat</ingestSound>
+</ingestible>
+</ThingDef>
+</Defs>
