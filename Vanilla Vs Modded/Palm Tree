@@ -1,0 +1,65 @@
+<!--============================ Vanilla Data ============================-->
+  
+<ThingDef ParentName="TreeBase">
+  <defName>Plant_TreePalm</defName>
+  <label>palm tree</label>
+  <description>A tropical tree with a tall, naked trunk topped by a cluster of very broad leaves. Unfortunately, this variety doesn't produce any edible coconuts.</description>
+  <graphicData>
+    <texPath>Things/Plant/TreePalm</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.18, 0.3, 0.15)</volume>
+      <offset>(0.03,0,-0.44)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>1</Beauty>
+    <Nutrition>1.5</Nutrition>
+  </statBases>
+  <plant>
+    <growDays>14</growDays>
+    <harvestWork>600</harvestWork>
+    <harvestYield>18</harvestYield>
+    <wildClusterRadius>10</wildClusterRadius>
+    <wildClusterWeight>11</wildClusterWeight>
+  </plant>
+  <ingestible />
+</ThingDef>
+  
+<!--============================ Modded Data ============================-->
+
+<ThingDef ParentName="TreeBase">
+  <defName>Tox_TreePalm</defName>
+  <label>palm tree</label>
+  <description>A tropical tree with a tall, naked trunk topped by a cluster of very broad leaves. Unfortunately, this variety doesn't produce any edible coconuts.</description>
+  <graphicData>
+    <texPath>Plants/TreePalm</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.18, 0.3, 0.15)</volume>
+      <offset>(0.03,0,-0.44)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>5</Beauty>
+    <Nutrition>1.5</Nutrition>
+  </statBases>
+  <plant>
+    <growDays>14</growDays>
+    <harvestWork>600</harvestWork>
+    <harvestYield>18</harvestYield>
+    <wildClusterRadius>10</wildClusterRadius>
+    <wildClusterWeight>11</wildClusterWeight>
+    <blockAdjacentSow>false</blockAdjacentSow>
+    <visualSizeRange>3.5~5</visualSizeRange>
+    <harvestTag>Wood</harvestTag>
+    <harvestYield>14</harvestYield>
+    <sowMinSkill>4</sowMinSkill>
+    <fertilitySensitivity>0.75</fertilitySensitivity>
+    <wildOrder>2</wildOrder>
+    <maxMeshCount>4</maxMeshCount>
+    <blockAdjacentSow>false</blockAdjacentSow>
+    <visualSizeRange>2.5~3.5</visualSizeRange>
+    <harvestedThingDef>Tox_BlackPalmLogs</harvestedThingDef>
+  </plant>
+</ThingDef>
