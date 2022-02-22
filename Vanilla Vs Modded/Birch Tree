@@ -1,0 +1,55 @@
+<!--============================ Vanilla Data ============================-->
+
+<ThingDef ParentName="DeciduousTreeBase">
+  <defName>Plant_TreeBirch</defName>
+  <label>birch tree</label>
+  <description>A temperate-biome tree known for its thin, white, paper-like bark.</description>
+  <graphicData>
+    <texPath>Things/Plant/TreeBirch</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.15, 0.3, 0.1)</volume>
+      <offset>(-0.03,0,-0.44)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>2</Beauty>
+    <BeautyOutdoors>2</BeautyOutdoors>
+  </statBases>
+  <ingestible />
+  <plant>
+    <growDays>20</growDays>
+    <harvestWork>800</harvestWork>
+    <harvestYield>27</harvestYield>
+    <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath>
+  </plant>
+</ThingDef>
+  
+  <!--============================ Modded Data ============================-->
+  
+<ThingDef ParentName="DeciduousTreeBase">
+  <defName>Tox_TreeBirch</defName>
+  <label>birch tree</label>
+  <description>A temperate-biome tree known for its thin, white, paper-like bark.</description>
+  <graphicData>
+    <texPath>Plants/TreeBirch</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.15, 0.3, 0.1)</volume>
+      <offset>(-0.03,0,-0.44)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>2</Beauty>
+    <BeautyOutdoors>2</BeautyOutdoors>
+  </statBases>
+  <ingestible />
+  <plant>
+    <growDays>20</growDays>
+    <harvestWork>800</harvestWork>
+    <harvestYield>27</harvestYield>
+    <leaflessGraphicPath>Plants/TreeBirch/Leafless</leaflessGraphicPath>
+    <visualSizeRange>3.5~4</visualSizeRange>
+		<harvestedThingDef>Tox_BirchLogs</harvestedThingDef>
+  </plant>
+</ThingDef>
