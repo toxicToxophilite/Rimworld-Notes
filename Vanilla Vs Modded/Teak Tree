@@ -46,6 +46,6 @@
     <wildOrder>2</wildOrder>
     <blockAdjacentSow>false</blockAdjacentSow>
     <visualSizeRange>3.5~5</visualSizeRange>
-    <harvestedThingDef>Tox_CecropiaLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_TeakLogs</harvestedThingDef>
   </plant>
 </ThingDef>
