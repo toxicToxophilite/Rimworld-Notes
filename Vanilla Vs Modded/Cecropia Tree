@@ -1,0 +1,60 @@
+<!--============================ Vanilla Data ============================-->
+
+<ThingDef ParentName="TreeBase">
+  <defName>Plant_TreeCecropia</defName>
+  <label>cecropia tree</label>
+  <description>One of the most common rainforest trees. Cecropia grows very fast, but yields little usable wood.</description>
+  <graphicData>
+    <texPath>Things/Plant/TreeCecropia</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.18, 0.3, 0.15)</volume>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>1</Beauty>
+    <Nutrition>1.5</Nutrition>
+  </statBases>
+  <plant>
+    <growDays>14</growDays>
+    <harvestWork>600</harvestWork>
+    <harvestYield>18</harvestYield>
+    <wildClusterRadius>10</wildClusterRadius>
+    <wildClusterWeight>11</wildClusterWeight>
+  </plant>
+  <ingestible />
+</ThingDef>
+
+<!--============================ Modded Data ============================-->
+
+<ThingDef ParentName="TreeBase">
+  <defName>Tox_TreeCecropia</defName>
+  <label>cecropia tree</label>
+  <description>One of the most common rainforest trees. Cecropia grows very fast, but yields little usable wood.</description>
+  <graphicData>
+    <texPath>Plants/TreeCecropia</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.18, 0.3, 0.15)</volume>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>5</Beauty>
+    <Nutrition>1.5</Nutrition>
+  </statBases>
+  <plant>
+    <growDays>14</growDays>
+    <harvestWork>600</harvestWork>
+    <harvestYield>18</harvestYield>
+    <wildClusterRadius>10</wildClusterRadius>
+    <wildClusterWeight>11</wildClusterWeight>
+    <harvestTag>Wood</harvestTag>
+    <sowMinSkill>4</sowMinSkill>
+    <fertilitySensitivity>0.75</fertilitySensitivity>
+    <wildOrder>2</wildOrder>
+    <maxMeshCount>4</maxMeshCount>
+    <blockAdjacentSow>false</blockAdjacentSow>
+    <visualSizeRange>3.5~5</visualSizeRange>
+    <harvestedThingDef>Tox_CecropiaLogs</harvestedThingDef>
+  </plant>
+</ThingDef>
