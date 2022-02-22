@@ -57,7 +57,6 @@
     <sowMinSkill>4</sowMinSkill>
     <fertilitySensitivity>0.75</fertilitySensitivity>
     <wildOrder>2</wildOrder>
-    <maxMeshCount>4</maxMeshCount>
     <blockAdjacentSow>false</blockAdjacentSow>
     <visualSizeRange>2.5~3.5</visualSizeRange>
     <harvestedThingDef>Tox_BlackPalmLogs</harvestedThingDef>
