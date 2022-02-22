@@ -2,7 +2,7 @@
   
 <ThingDef ParentName="TreeBase">
   <defName>Plant_TreeBamboo</defName>
-  <label>bamboo tree</label>
+  <label>bamboo</label>
   <description>A fast-growing tree-like plant that grows in dense groves. Bamboo can be harvested for a wood-like material. The plant itself is not beautiful.</description>
   <statBases>
     <Nutrition>1.5</Nutrition>
@@ -30,7 +30,7 @@
   
 <ThingDef ParentName="TreeBase">
   <defName>Tox_TreeBamboo</defName>
-  <label>willow tree</label>
+  <label>bamboo tree</label>
   <description>A fast-growing tree-like plant that grows in dense groves. Bamboo can be harvested for a wood-like material.</description>
   <graphicData>
     <texPath>Plants/TreeBamboo/Mature</texPath>
