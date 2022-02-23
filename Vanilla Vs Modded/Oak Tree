@@ -32,7 +32,7 @@
   <label>oak tree</label>
   <description>A hardwood tree. Oaks take a long time to grow, but their wood is so strong that 'oak' is used as a metaphor for strength across many cultures.</description>
   <graphicData>
-    <texPath>Plants/TreeOak</texPath>
+    <texPath>Plants/TreeOak/Mature</texPath>
     <graphicClass>Graphic_Random</graphicClass>
     <shadowData>
       <volume>(0.2, 0.35, 0.13)</volume>
@@ -50,6 +50,6 @@
     <harvestYield>46</harvestYield>
     <wildClusterWeight>35</wildClusterWeight>
     <visualSizeRange>4.5~5</visualSizeRange>
-		<harvestedThingDef>Tox_OakLogs</harvestedThingDef>
+	<harvestedThingDef>Tox_OakLog</harvestedThingDef>
   </plant>
 </ThingDef>
