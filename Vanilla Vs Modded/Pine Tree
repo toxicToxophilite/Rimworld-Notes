@@ -49,6 +49,6 @@
     <harvestWork>800</harvestWork>
     <harvestYield>27</harvestYield>
     <visualSizeRange>3.5~5</visualSizeRange>
-		<harvestedThingDef>Tox_PineLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_PineLogs</harvestedThingDef>
   </plant>
 </ThingDef>
