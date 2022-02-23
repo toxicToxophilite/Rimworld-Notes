@@ -50,6 +50,6 @@
     <harvestWork>800</harvestWork>
     <harvestYield>27</harvestYield>
     <visualSizeRange>3.5~4</visualSizeRange>
-		<harvestedThingDef>Tox_MapleLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_MapleLog</harvestedThingDef>
   </plant>
 </ThingDef>
