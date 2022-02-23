@@ -52,13 +52,7 @@
     <wildClusterWeight>11</wildClusterWeight>
     <blockAdjacentSow>false</blockAdjacentSow>
     <visualSizeRange>3.5~5</visualSizeRange>
-    <harvestTag>Wood</harvestTag>
-    <harvestYield>14</harvestYield>
     <sowMinSkill>4</sowMinSkill>
-    <fertilitySensitivity>0.75</fertilitySensitivity>
-    <wildOrder>2</wildOrder>
-    <blockAdjacentSow>false</blockAdjacentSow>
-    <visualSizeRange>2.5~3.5</visualSizeRange>
-    <harvestedThingDef>Tox_BlackPalmLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_PalmLog</harvestedThingDef>
   </plant>
 </ThingDef>
