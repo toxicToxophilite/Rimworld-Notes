@@ -30,8 +30,8 @@
   
 <ThingDef ParentName="TreeBase">
   <defName>Tox_TreeBamboo</defName>
-  <label>bamboo tree</label>
-  <description>A fast-growing tree-like plant that grows in dense groves. Bamboo can be harvested for a wood-like material.</description>
+  <label>bamboo</label>
+  <description>A fast-growing tree-like grass that grows in dense groves. Bamboo can be harvested for a wood-like material.</description>
   <graphicData>
     <texPath>Plants/TreeBamboo/Mature</texPath>
     <graphicClass>Graphic_Random</graphicClass>
@@ -50,15 +50,12 @@
     <harvestWork>550</harvestWork>
     <wildClusterRadius>5</wildClusterRadius>
     <wildClusterWeight>15</wildClusterWeight>
-    <harvestTag>Wood</harvestTag>
     <harvestYield>14</harvestYield>
-    <sowMinSkill>4</sowMinSkill>
-    <fertilitySensitivity>0.75</fertilitySensitivity>
+    <sowMinSkill>2</sowMinSkill>
     <immatureGraphicPath>Plants/TreeBamboo/Immature</immatureGraphicPath>
-    <wildOrder>2</wildOrder>
     <maxMeshCount>4</maxMeshCount>
     <blockAdjacentSow>false</blockAdjacentSow>
     <visualSizeRange>2.5~3.5</visualSizeRange>
-    <harvestedThingDef>Tox_BambooLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_BambooLog</harvestedThingDef>
   </plant>
 </ThingDef>
