@@ -48,13 +48,9 @@
     <harvestYield>18</harvestYield>
     <wildClusterRadius>10</wildClusterRadius>
     <wildClusterWeight>11</wildClusterWeight>
-    <harvestTag>Wood</harvestTag>
     <sowMinSkill>4</sowMinSkill>
-    <fertilitySensitivity>0.75</fertilitySensitivity>
-    <wildOrder>2</wildOrder>
-    <maxMeshCount>4</maxMeshCount>
     <blockAdjacentSow>false</blockAdjacentSow>
     <visualSizeRange>3.5~5</visualSizeRange>
-    <harvestedThingDef>Tox_CecropiaLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_CecropiaLog</harvestedThingDef>
   </plant>
 </ThingDef>
