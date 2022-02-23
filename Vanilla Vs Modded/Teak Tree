@@ -46,7 +46,7 @@
     <wildOrder>2</wildOrder>
     <blockAdjacentSow>false</blockAdjacentSow>
     <visualSizeRange>3.5~5</visualSizeRange>
-    <harvestedThingDef>Tox_TeakLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_TeakLog</harvestedThingDef>
     <leaflessGraphicPath>Plants/TreeTeak/Leafless</leaflessGraphicPath>
   </plant>
 </ThingDef>
