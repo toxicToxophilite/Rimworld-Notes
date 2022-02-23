@@ -50,6 +50,6 @@
     <harvestYield>27</harvestYield>
     <leaflessGraphicPath>Plants/TreeBirch/Leafless</leaflessGraphicPath>
     <visualSizeRange>3.5~4</visualSizeRange>
-		<harvestedThingDef>Tox_BirchLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_BirchLog</harvestedThingDef>
   </plant>
 </ThingDef>
