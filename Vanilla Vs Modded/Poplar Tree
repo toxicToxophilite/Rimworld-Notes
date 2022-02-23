@@ -43,7 +43,7 @@
     <harvestWork>800</harvestWork>
     <harvestYield>27</harvestYield>
     <wildClusterWeight>35</wildClusterWeight>
-    <harvestedThingDef>Tox_PoplarLogs</harvestedThingDef>
+    <harvestedThingDef>Tox_PoplarLog</harvestedThingDef>
     <visualSizeRange>2.5~3</visualSizeRange>
   </plant>
 </ThingDef>
