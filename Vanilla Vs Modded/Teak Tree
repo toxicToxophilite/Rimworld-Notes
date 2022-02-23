@@ -40,10 +40,7 @@
     <growDays>32.5</growDays>
     <harvestWork>1800</harvestWork>
     <harvestYield>60</harvestYield>
-    <harvestTag>Wood</harvestTag>
     <sowMinSkill>4</sowMinSkill>
-    <fertilitySensitivity>0.75</fertilitySensitivity>
-    <wildOrder>2</wildOrder>
     <blockAdjacentSow>false</blockAdjacentSow>
     <visualSizeRange>3.5~5</visualSizeRange>
     <harvestedThingDef>Tox_TeakLog</harvestedThingDef>
