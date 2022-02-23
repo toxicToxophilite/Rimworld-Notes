@@ -1,0 +1,55 @@
+<!--============================ Vanilla Data ============================-->
+
+<ThingDef ParentName="DeciduousTreeBase">
+  <defName>Plant_TreeMaple</defName>
+  <label>maple tree</label>
+  <description>A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.</description>
+  <graphicData>
+    <texPath>Things/Plant/TreeMaple</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.14, 0.32, 0.12)</volume>
+      <offset>(0,0,-0.44)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>2</Beauty>
+    <BeautyOutdoors>2</BeautyOutdoors>
+  </statBases>
+  <plant>
+    <growDays>27</growDays>
+    <leaflessGraphicPath>Things/Plant/TreeMaple_Leafless</leaflessGraphicPath>
+    <harvestWork>800</harvestWork>
+    <harvestYield>27</harvestYield>
+    <wildClusterRadius>17</wildClusterRadius>
+    <wildClusterWeight>25</wildClusterWeight>
+  </plant>
+</ThingDef>
+
+<!--============================ Modded Data ============================-->
+
+<ThingDef ParentName="DeciduousTreeBase">
+  <defName>Tox_TreeMaple</defName>
+  <label>maple tree</label>
+  <description>A common medium-sized tree, easily identifiable by its distinct three-pointed leaf.</description>
+  <graphicData>
+    <texPath>Plants/TreeMaple</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.14, 0.32, 0.12)</volume>
+      <offset>(0,0,-0.44)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>6</Beauty>
+    <BeautyOutdoors>6</BeautyOutdoors>
+  </statBases>
+  <plant>
+    <growDays>27</growDays>
+    <leaflessGraphicPath>Plants/TreeMaple/Leafless</leaflessGraphicPath>
+    <harvestWork>800</harvestWork>
+    <harvestYield>27</harvestYield>
+    <visualSizeRange>3.5~4</visualSizeRange>
+		<harvestedThingDef>Tox_MapleLogs</harvestedThingDef>
+  </plant>
+</ThingDef>
