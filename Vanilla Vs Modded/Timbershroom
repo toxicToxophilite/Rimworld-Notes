@@ -60,5 +60,6 @@
     <sowResearchPrerequisites Inherit="False" />
     <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
     <harvestedThingDef>Tox_FungalLog</harvestedThingDef>
+    <visualSizeRange>2.5~3.5</visualSizeRange>
   </plant>
 </ThingDef>
