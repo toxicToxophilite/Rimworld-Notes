@@ -1,0 +1,64 @@
+<!--============================ Vanilla Data ============================-->
+
+<ThingDef ParentName="TreeBase">
+  <defName>Plant_Timbershroom</defName>
+  <label>timbershroom</label>
+  <description>A tall brown mushroom with a long stem. When harvested, it yields a wood-like substance.</description>
+  <fillPercent>0.4</fillPercent>
+  <graphicData>
+    <texPath>Things/Plant/Timbershroom</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.2, 0.6, 0.2)</volume>
+      <offset>(0,0,-0.3)</offset>
+    </shadowData>
+  </graphicData>
+  <minifiedDef IsNull="True" />
+  <plant>
+    <topWindExposure>0</topWindExposure>
+    <fertilityMin>0.01</fertilityMin>
+    <growDays>20</growDays>
+    <harvestYield>25</harvestYield>
+    <neverBlightable>true</neverBlightable>
+    <wildClusterWeight>0</wildClusterWeight>
+    <growMinGlow>0</growMinGlow>
+    <growOptimalGlow>0</growOptimalGlow>
+    <cavePlant>true</cavePlant>
+    <wildOrder>1</wildOrder>
+    <sowResearchPrerequisites Inherit="False" />
+    <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+  </plant>
+</ThingDef>
+  
+  <!--============================ Modded Data ============================-->
+  
+<ThingDef ParentName="TreeBase">
+  <defName>Tox_Timbershroom</defName>
+  <label>timbershroom</label>
+  <description>A tall brown mushroom with a long stem. When harvested, it yields a wood-like substance.</description>
+  <fillPercent>0.4</fillPercent>
+  <graphicData>
+    <texPath>Things/Plant/Timbershroom</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.2, 0.6, 0.2)</volume>
+      <offset>(0,0,-0.3)</offset>
+    </shadowData>
+  </graphicData>
+  <minifiedDef IsNull="True" />
+  <plant>
+    <topWindExposure>0</topWindExposure>
+    <fertilityMin>0.01</fertilityMin>
+    <growDays>20</growDays>
+    <harvestYield>25</harvestYield>
+    <neverBlightable>true</neverBlightable>
+    <wildClusterWeight>0</wildClusterWeight>
+    <growMinGlow>0</growMinGlow>
+    <growOptimalGlow>0</growOptimalGlow>
+    <cavePlant>true</cavePlant>
+    <wildOrder>1</wildOrder>
+    <sowResearchPrerequisites Inherit="False" />
+    <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+    <harvestedThingDef>Tox_FungalLog</harvestedThingDef>
+  </plant>
+</ThingDef>
