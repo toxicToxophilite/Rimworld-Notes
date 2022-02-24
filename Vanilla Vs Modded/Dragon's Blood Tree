@@ -1,0 +1,55 @@
+<!--============================ Vanilla Data ============================-->
+  
+<ThingDef ParentName="TreeBase">
+  <defName>Plant_TreeDrago</defName>
+  <label>drago tree</label>
+  <description>A hardy desert tree topped with thick, pointed leaves.</description>
+  <graphicData>
+    <texPath>Things/Plant/TreeDrago</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.24, 0.35, 0.13)</volume>
+      <offset>(0,0,-0.38)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>1</Beauty>
+  </statBases>
+  <ingestible />
+  <plant>
+    <growDays>15</growDays>
+    <harvestWork>750</harvestWork>
+    <harvestYield>25</harvestYield>
+    <wildClusterRadius>6</wildClusterRadius>
+    <wildClusterWeight>3</wildClusterWeight>
+  </plant>
+</ThingDef>
+  
+<!--============================ Modded Data ============================-->
+    
+<ThingDef ParentName="TreeBase">
+  <defName>Tox_TreeDrago</defName>
+  <label>Dragon's Blood Tree</label>
+  <description>A hardy desert tree topped with thick, pointed leaves.</description>
+  <graphicData>
+    <texPath>Plants/TreeDrago</texPath>
+    <graphicClass>Graphic_Random</graphicClass>
+    <shadowData>
+      <volume>(0.24, 0.35, 0.13)</volume>
+      <offset>(0,0,-0.38)</offset>
+    </shadowData>
+  </graphicData>
+  <statBases>
+    <Beauty>3</Beauty>
+  </statBases>
+  <ingestible />
+  <plant>
+    <growDays>15</growDays>
+    <harvestWork>750</harvestWork>
+    <harvestYield>25</harvestYield>
+    <wildClusterRadius>6</wildClusterRadius>
+    <wildClusterWeight>3</wildClusterWeight>
+    <visualSizeRange>4.5~5.5</visualSizeRange>
+    <harvestedThingDef>Tox_DragoLog</harvestedThingDef>
+  </plant>
+</ThingDef>
